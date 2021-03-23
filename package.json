@@ -1,16 +1,16 @@
 {
   "name": "conventional-commits-json",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "JSON file defining conventional commits commit types",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ci": "prettier --check types.json package.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/conventional-commits-rs/conventional-commits-json.git"
   },
-  "author": "",
+  "author": "SirWindfield",
   "license": "Apache-2.0 OR MIT",
   "bugs": {
     "url": "https://github.com/conventional-commits-rs/conventional-commits-json/issues"
