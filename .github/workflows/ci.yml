@@ -1,0 +1,17 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+    paths:
+      - "**.json"
+
+jobs:
+  fmt:
+    name: Source formatting check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Check formatting
+        run: yarn run ci
