@@ -1,6 +1,6 @@
 # conventional-commits-json
 
-> A JSON file describing all [conventiona commits][cc] commit types.
+> A JSON file describing all [conventional commits][cc] commit types.
 
 The types' description is kept at under 80 characters to make it properly displayable in most terminals. Although the types are part of the standard, the descriptions are not and are just a mere guidance to what each type means.
 
